@@ -24,6 +24,13 @@ public class Leilao {
 	}
 
 
+	public Leilao(String nome, double valorInicial, Usuario usuario, boolean usado) {
+		this.nome = nome;
+		this.valorInicial = valorInicial;
+		this.usuario = usuario;
+		this.usado = usado;
+	}
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
